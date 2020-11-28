@@ -13,6 +13,7 @@ public:
 	{
 		size = s;
 		cout << "Do you wanna draw a diagonal ?" << "\nAnswer '1'- Draw a diagonal" << "\nAnswer '0'- Don't draw a diagonal" << endl;
+		cin >> d;
 		array = new char* [size];
 		for (int i = 0; i < size; i++) {
 			array[i] = new char[size];
